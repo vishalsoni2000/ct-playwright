@@ -10,10 +10,13 @@
     "@playwright/test": "^1.45.1",
     "@types/node": "^20.14.10"
   },
-  "scripts": {
-    "start": "node index.js"
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index",
+    "start": "node index"
   },
   "engines": {
-    "node": "20.x"
+    "node": "20.12.2",
+    "npm" : "10.5.0"
   }
 }
