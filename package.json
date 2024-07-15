@@ -1,0 +1,16 @@
+{
+  "name": "ct-playwright",
+  "version": "1.0.0",
+  "description": "ct-playwright",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.1",
+    "@types/node": "^20.14.10"
+  },
+  "scripts": {
+    "start": "node index.js"
+}
+}
